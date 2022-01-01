@@ -8,7 +8,7 @@ Create a Search engine by getting similar images
 ![image](images/df236404-28b8-4380-9f17-4ea657e781ad.png?raw=true "Title")
 
 
-Stips to run the Backend(Django)
+Steps to run the Backend(Django)
 
 ```
 ##Install all Our important python packges
@@ -17,6 +17,7 @@ Stips to run the Backend(Django)
 > pip install django-rest-authtoken
 > pip install djangorestframework
 > pip install django-filter
+> pip install ImageHash
 ```
 
 ```sh
