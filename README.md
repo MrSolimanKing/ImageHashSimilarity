@@ -1,5 +1,7 @@
 # ImageHashSimilarity
 
+
+
 Stips to run the Backend(Django)
 
 ```
@@ -62,3 +64,7 @@ Once you done, install our app moduls by write "npm install" or "yarn install"
 Then Run our expo app by Typing
 
 > expo start
+
+## To test the app you need to install expo Go in your phone
+
+
