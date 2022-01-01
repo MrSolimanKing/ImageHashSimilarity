@@ -2,21 +2,38 @@
 
 Stips to run the Backend(Django)
 
+```
+##Install all Our important python packges
+
+> pip install django-cors-headers
+> pip install django-rest-authtoken
+> pip install djangorestframework
+> pip install django-filter
+```
+
 ```sh
 python manage.py runserver 'Your IP ADDRES':8000
-# You Should run Django based on your Ip Address In order to Api work with the Frontend and add you ip in 
-ALLOWED_HOSTS = ["YOUR AIP ADDRESS"] in 'ecommerc/settings.py'
 
-## YOU probably will not need to make these steps since the SQLite is already uploaded with the project!I am not sure. You only need to create SuperUser
+# You Should run Django based on your Ip Address In order to Api work with the Frontend and add you ip in 
+> ALLOWED_HOSTS = ["YOUR AIP ADDRESS"] in 'ecommerc/settings.py'
+
+and
+
+> CORS_ALLOWED_ORIGINS = [
+    'YOUR AIP ADDRESS',
+]
+
+## YOU probably will not need to make (migrations and migrate) these steps since the SQLite is already uploaded with the project!I am not sure. You only need to create SuperUser
 
 Then run migrations
-python manage.py makemigrations
-Then migrate This to the database 
-python manage.py migrate
+> python manage.py makemigrations
+> Then migrate This to the database 
+> python manage.py migrate
 ####
 
+
 ## To create Super user
-python manage.py createsuperuser
+> python manage.py createsuperuser
 
 
 
@@ -41,3 +58,7 @@ Lets jumb to Frontend
 ```
 
 Once you done, install our app moduls by write "npm install" or "yarn install"
+
+Then Run our expo app by Typing
+
+> expo start
