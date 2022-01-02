@@ -18,6 +18,8 @@ Steps to run the Backend(Django)
 > pip install djangorestframework
 > pip install django-filter
 > pip install ImageHash
+> pip install imagehash
+
 ```
 
 ```sh
