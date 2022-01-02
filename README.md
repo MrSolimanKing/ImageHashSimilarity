@@ -2,11 +2,11 @@
 
 Create a Search engine by getting similar images
 
-
-![image](images/1e386572-cf9c-420d-8f8b-3c43fce322f8.png?raw=true "Title")
-![image](images/d9e38ade-0faa-4cf4-9dc0-f493c49d9185.png?raw=true "Title")
-![image](images/df236404-28b8-4380-9f17-4ea657e781ad.png?raw=true "Title")
-
+<p float="left">
+    <img s src="images/1e386572-cf9c-420d-8f8b-3c43fce322f8.png" width="200" height="380">
+    <img src="images/d9e38ade-0faa-4cf4-9dc0-f493c49d9185.png" width="200" height="380">
+    <img src="images/df236404-28b8-4380-9f17-4ea657e781ad.png" width="200" height="380">
+</p>
 
 Steps to run the Backend(Django)
 
